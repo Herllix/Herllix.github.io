@@ -203,9 +203,10 @@ input[type="checkbox"]
 
 body
 {
-    background-image: url(png/pexels-creative-vix-9754.jpg);
-    background-size: cover;
-    
+    background: url(png/pexels-creative-vix-9754.jpg) no-repeat;
+    background-size: cover;   
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .headline h1
@@ -226,11 +227,11 @@ body
 .paragraph ul
 {
     position: absolute;
-    top: 35%;
+    top: 37.5%;
     left: 50%;
     right: 50%;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
     margin: 0px 0px;
     transform: translate(-50%,-50%);
     z-index: -1;
@@ -245,7 +246,7 @@ body
     top: 25%;
     left: 50%;
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 600px;
     transform: translate(-50%,-50%);
     z-index: -1;
     text-align: center;
@@ -256,10 +257,12 @@ body
 .link0 img
 {
     position: absolute;
-    top:30%;
-    left:47.5%;
-    z-index: -1;
-    
+    top:35%;
+    left:50%;
+    font-size: 60px;
+    font-weight: 700px;
+    transform: translate(-50%,-50%);
+    z-index: -1;   
 }
 
 #active:checked ~ .link0 
@@ -271,17 +274,23 @@ body
 .link1 img
 {
     position: absolute;
-    top: 30%;
-    left: 55%;
+    top: 35%;
+    left: 60%;
+    font-size: 60px;
+    font-weight: 700px;
+    transform: translate(10%,-50%);
     z-index: -1;
 }
 
 .link2 img
 {
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 40%;
-    z-index: -1;
+    font-size: 60px;
+    font-weight: 700px;
+    transform: translate(-110%,-50%);
+    z-index: -1;   
 }
 
 .headline1 h1
@@ -312,4 +321,25 @@ body
     text-align: center;
     width: 100%;
     color: rgb(0, 0, 0);
+}
+
+.responsive 
+{
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+.responsive0
+{
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+.responsive1
+{
+    width: 100%;
+    max-width: 100px;
+    height: auto;
 }
